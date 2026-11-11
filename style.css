@@ -5,9 +5,9 @@ body{
 
 #container-master{
     background-image: url('img.jpg');
-    border-radius: 10px;
-    width: 50vW;
-    height: 59.5vH;
+    border-radius: 6px;
+    width: 40vW;
+    height: 50.2vH;
     margin: 0 auto;
     margin-top: 5vH;
     text-align: center;
@@ -19,8 +19,41 @@ body{
     border: 1px solid #e0d8d8;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    width:50.2vW;
+    width:40.09vW;
+    padding: 2px;
     cursor:pointer;  
     text-align: center;  
 }
 
+@media screen and (max-width: 768px) {
+    #container-master {
+        width: 40vW;
+        height: 30vH;
+    }
+    #box {
+        font-size: 12px;
+        padding: 5px;
+        
+    }
+}
+
+@media screen and (max-width: 545px) {
+    #container-master {
+        width: 40vW;
+        height: 20vH;
+    }
+    
+    #box {
+        padding: 5px;
+        
+    }
+    
+}
+
+@media screen and (max-height: 900px) and (max-width: 1370px) {
+    #container-master {
+        
+        height: 30vH;
+    }
+        
+}
