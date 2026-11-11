@@ -58,8 +58,9 @@ body{
 
 @media screen and (min-width: 1000px){
     #container-master {
-        
-        height: 43vH;
+        /*testes gerais de tela pelo navegador: height: 43vH*/
+        /*para celular, use height: 50vH*/
+        height: 50vH;
     }
         
 }
