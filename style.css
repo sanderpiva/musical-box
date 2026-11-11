@@ -27,7 +27,6 @@ body{
 
 @media screen and (max-width: 768px) {
     #container-master {
-        width: 40vW;
         height: 30vH;
     }
     #box {
@@ -39,7 +38,6 @@ body{
 
 @media screen and (max-width: 545px) {
     #container-master {
-        width: 40vW;
         height: 20vH;
     }
     
@@ -50,10 +48,18 @@ body{
     
 }
 
-@media screen and (max-height: 900px) and (max-width: 1370px) {
+@media screen and (min-height: 757px) and (min-width: 760px) {
     #container-master {
         
         height: 38vH;
+    }
+        
+}
+
+@media screen and (min-width: 1000px){
+    #container-master {
+        
+        height: 43vH;
     }
         
 }
